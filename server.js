@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ type: 'application/json' }));
 
 /////////////////////
-particle.login({username: 'brahmani57@icloud.com', password: 'Haweqa+4560'}).then(
+particle.login({username: 'xxxxx@icloud.com', password: 'xxxxxx'}).then(
     function(data) {
         token = data.body.access_token;
         var devicesPr = particle.listDevices({ auth: token });

@@ -1,0 +1,17 @@
+.active {
+	color: red;
+	font-weight: bold;
+}
+
+li.pointer {
+	cursor: pointer;
+}
+
+label, input {
+	margin-left: 10px;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-left: 25px;
+}
